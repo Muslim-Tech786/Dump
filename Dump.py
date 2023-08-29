@@ -7,6 +7,6 @@ import requests
 bit = platform.architecture()[0]
 if bit == '32bit':
    os.system('python BB.cpython-311.so')
-else bit == '64bit':
+else:
    from AA import dump
    dump()
